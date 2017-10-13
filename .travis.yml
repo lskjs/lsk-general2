@@ -15,4 +15,11 @@ cache: yarn
 
 install:
   - yarn run build-storybook
-  - yarn run deploy-storybook
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  local_dir: .out
+  on:
+    branch: master
