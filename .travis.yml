@@ -13,6 +13,7 @@ before_install:
 cache: yarn
 
 install:
+  - yarn install
   - yarn run build-storybook
 
 deploy:
