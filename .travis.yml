@@ -5,7 +5,6 @@ node_js:
 
 env:
   - NODE_ENV=development
-  - NODE_ENV=production
 
 before_install:
   - curl -o- -L https://yarnpkg.com/install.sh | bash -s
