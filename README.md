@@ -1,7 +1,7 @@
-# DEV for CI
-
 # lsk-general
 Lego Starter Kit / General blocks
 
-**Demo:**
-https://isuvorov.github.io/lsk-general
+**Storybook:**
+https://lskjs.github.io/lsk-general/
+
+Работает автосборщик!
